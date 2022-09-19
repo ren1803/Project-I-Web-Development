@@ -1,19 +1,31 @@
+body{
+    background-color: white;
+}
+
+*{
+    font-family: 'Amiri', serif;
+}
+
+
 .navbar{
-    background-color: #FDAF17;
-    border-bottom: #052491 2px solid;
+    background-color: black;
+    border-bottom: black 2px solid;
+    font-size: 25px;
+    font-weight: 400;
 }
 .nav-link{
-    color: beige;
+    color: white;
+    margin-top: 10px;
 }
 
 .navbar-brand{
-    background-color: aliceblue;
-    border: white 2px solid;
+    background-color: black;
+    border: black 2px solid;
     border-radius: 15%;
 }
 
 .nav-link:hover{
-    color: #052491;
+    color: #9D968A;
 }
 
 #botonesinicio{
@@ -22,27 +34,85 @@
 }
 
 #crearcuenta{
-    color: #C13F75;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
     font-weight: bold;
-    border: #C13F75 2px solid;
+    border: white 2px solid;
+    transition: transform 0.3s ease;
+    margin-top: 10px;
+    display: block;
+    width: 150px;
 }
 
 #crearcuenta:hover{
     color: white;
-    background-color: #C13F75;
+    background-color:#9D968A;
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 #iniciarsesion{
-    color: #3d7102;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: white;
     font-weight: bold;
-    border: #3d7102 2px solid;
+    border: white 2px solid;
+    transition: transform 0.3s ease;
+    display: block;
+    width: 150px;
 }
 
 #iniciarsesion:hover{
     color: white;
-    background-color: #3d7102;
+    background-color: #9D968A;
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
-#carruselprincipal{
-    padding-top: 1%;
+
+.carousel-caption{
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+hr{
+    border: 5px solid black;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+h1{
+    color: black;
+    display: block;
+    margin-top: 2%;
+    position: absolute;
+    width: 100%;
+    left: 25%;
+    right: 25%;
+    margin-bottom: 2%;
+}
+
+.galerim1{
+    margin-top: 5%;
+}
+
+.texto1{
+    color: black;
+    align-self: center;
+}
+
+.texto2{
+    color: black;
+    align-self: center;
+}
+
+.texto3{
+    color: black;
+    align-self: center;
 }
