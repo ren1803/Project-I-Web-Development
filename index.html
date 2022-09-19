@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,28 +14,34 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/index.html">
-                    <img src="/images/logo-UP.png" alt="logo-UP" width="89" height="24">
+                    <img src="/images/logo-UP.png" alt="logo-UP" width="40" height="40">
                 </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                  <a class="nav-link active" aria-current="true"  style="color: #052491" href="/index.html">Home</a>
                   <a class="nav-link" href="/html/detemporada.html">De temporada</a>
                   <a class="nav-link" href="/html/catalogo.html">Catalogo</a>
-                  <a class="nav-link" href="/html/aboutus.html">About us</a>
+                  <a class="nav-link" href="/html/historias.html">Historias de exito</a>
+                  <a class="nav-link" href="/html/aboutus.html">Acerca de nosotros</a>
+                  <a class="nav-link" href="/html/random.html">Obra del mes</a>
+                  <form class="d-flex" id="botonesinicio" >
+                    <button class="btn btn-outline-success me-2" type="button" id="crearcuenta" onclick= "window.location.href = '/html/signup.html' ; ">Crear Cuenta</button>
+                    <button class="btn btn-outline-secondary" type="button" id="iniciarsesion" onclick= "window.location.href = '/html/login.html' ; ">Inicia sesion</button>
+                  </form>
                 </div>
               </div>
             </div>
           </nav>
 
         <!-- Carrousel de fotos y muestras-->
-        <div id="carouselExampleDark" class="carousel carousel slide" data-bs-ride="carousel">
+        <div id="carruselprincipal" class="carousel carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carruselprincipal" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carruselprincipal" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carruselprincipal" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="8000">
@@ -60,11 +66,11 @@
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carruselprincipal" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carruselprincipal" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
