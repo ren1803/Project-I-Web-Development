@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: #9D968A;
 }
 
 *{
@@ -10,7 +10,7 @@ body{
 .navbar{
     background-color: black;
     border-bottom: black 2px solid;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
 }
 .nav-link{
@@ -25,7 +25,7 @@ body{
 }
 
 .nav-link:hover{
-    color: #9D968A;
+    color: #605B54;
 }
 
 #botonesinicio{
@@ -63,57 +63,21 @@ body{
     display: block;
     width: 150px;
 }
-
-#iniciarsesion:hover{
-    color: white;
-    background-color: #9D968A;
-    cursor: pointer;
-    transform: scale(1.05);
-}
-
-
-.carousel-caption{
+.noticia {
+    width: 50%;
+    margin: 20px auto;
+    background-color: #E1D6D6;
     color: black;
-    font-size: 25px;
-    font-weight: 400;
-
+    padding: 15px;
 }
-
-hr{
-    border: 5px solid black;
-    width: 100%;
-    margin: auto;
+  
+.noticia img.izquierda {
+    float: left;
+    margin-right: 15px;
 }
+  
 
-
-
-h1{
-    color: black;
-    display: block;
-    margin-top: 2%;
-    position: absolute;
-    width: 100%;
-    left: 25%;
-    right: 25%;
-    margin-bottom: 2%;
-}
-
-
-.galerim1{
-    margin-top: 5%;
-}
-
-.texto1{
-    color: black;
-    align-self: center;
-}
-
-.texto2{
-    color: black;
-    align-self: center;
-}
-
-.texto3{
-    color: black;
-    align-self: center;
+  
+.reset {
+    clear: both;
 }
